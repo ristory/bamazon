@@ -27,6 +27,15 @@ var connection = mysql.createConnection({
           {
                
           };
+
+          inquirer.prompt({
+            type: 'input',
+            name: 'Unit of Products question',
+            message: 'How many unit of product do you want to buy?'
+          }),function(response)
+          {
+               
+          };
         });
   });
 
